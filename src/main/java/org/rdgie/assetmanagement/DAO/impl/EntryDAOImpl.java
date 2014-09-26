@@ -2,12 +2,10 @@ package org.rdgie.assetmanagement.DAO.impl;
 
 import java.util.List;
 
-import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.rdgie.assetmanagement.DAO.EntryDAO;
 import org.rdgie.assetmanagement.domain.Entry;
-import org.rdgie.assetmanagement.domain.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
